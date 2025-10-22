@@ -11,10 +11,10 @@ export const metadata: Metadata = {
   title: "WodiNote – Fully Encrypted Offline Notes",
   description:
     "WodiNote is a fully offline, end-to-end encrypted notes app. Keep your data private and secure on your device with AES-256-GCM encryption.",
-  keywords: ["notes", "encrypted", "offline", "privacy", "secure", "AES-256-GCM", "PWA"],
-  authors: [{ name: "WodiNote" }],
-  creator: "WodiNote",
-  publisher: "WodiNote",
+  keywords: ["notes", "encrypted", "offline", "privacy", "secure", "AES-256-GCM", "PWA", "end-to-end encryption"],
+  authors: [{ name: "Calchiwo" }],
+  creator: "Caleb Wodi",
+  publisher: "BuiltByWodi",
   robots: "index, follow",
   manifest: "/manifest.json",
   appleWebApp: {
@@ -80,7 +80,7 @@ export default function RootLayout({
         <meta name="googlebot" content="index, follow" />
         <meta name="language" content="English" />
         <meta name="revisit-after" content="7 days" />
-        <meta name="canonical" content="https://wodinote.app" />
+        <meta name="canonical" content="https://wodinote.vercel.app" />
         <link rel="apple-touch-icon" href="/wodi-logo.jpg" />
         <link rel="manifest" href="/manifest.json" />
       </head>
