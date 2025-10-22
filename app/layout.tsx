@@ -16,7 +16,6 @@ export const metadata: Metadata = {
   creator: "WodiNote",
   publisher: "WodiNote",
   robots: "index, follow",
-  generator: "v0.app",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
@@ -33,11 +32,11 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://wodinote.app",
+    url: "https://wodinote.vercel.app",
     siteName: "WodiNote",
     title: "WodiNote – Fully Encrypted Offline Notes",
     description:
-      "WodiNote is a fully offline, end-to-end encrypted notes app. Keep your data private and secure on your device with AES-256-GCM encryption.",
+      "WodiNote is a fully offline, end-to-end encrypted notes app. Keep your data private and secure on your device with AES-256-GCM end-to-end encryption.",
     images: [
       {
         url: "/wodi-logo.jpg",
