@@ -10,7 +10,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Christabel Birthday Surprise",
   description: "A magical birthday surprise for Christabel from Caleb",
-  generator: "v0.app",
 }
 
 export default function RootLayout({
