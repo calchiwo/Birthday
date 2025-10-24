@@ -21,7 +21,7 @@ export default function VideoStage({ onVideoEnd }: VideoStageProps) {
     >
       <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
         <video autoPlay controls onEnded={onVideoEnd} className="w-full h-auto" style={{ maxHeight: "70vh" }}>
-          <source src="/video/birthday-greeting.mp4" type="video/mp4" />
+          <source src="/public/birthday-greeting.mp4" type="video/mp4" />
           {/* Fallback if video doesn't exist */}
           <div className="w-full h-96 bg-gradient-to-br from-pink-300 to-purple-300 flex items-center justify-center">
             <p className="text-white text-2xl font-bold">🎬 Birthday Video</p>
