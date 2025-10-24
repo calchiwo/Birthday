@@ -1,1 +1,0 @@
-WodiNote (formerly WodiWebify) is a fully offline, end-to-end encrypted notes app that keeps your data private on your device. Notes are encrypted with AES-256-GCM and keys are securely derived using PBKDF2-SHA256, ensuring that only you can read your notes; even if your device is lost or compromised.
